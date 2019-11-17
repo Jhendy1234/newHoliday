@@ -38,6 +38,7 @@ class DetailViewController: UIViewController, MFMessageComposeViewControllerDele
             composeVC.body = "hello"
             composeVC.messageComposeDelegate = self
             self.present(composeVC, animated: true, completion: nil)
+        print("hello world")
         }
         
         func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
